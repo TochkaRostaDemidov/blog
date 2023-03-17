@@ -2,3 +2,11 @@ baseURL = 'https://tochkarostademidov.github.io/blog/'
 languageCode = 'ru-ru'
 title = 'Блог секции Точка Роста'
 theme = 'papermod'
+paginate = 5
+
+[params]
+	env = 'production'
+	[params.homeInfoParams]
+		Content = """График точки роста:
+		```ПН ВТ СР ЧТ ПТ СБ
+		++ ++ ++ -- -- --```"""
