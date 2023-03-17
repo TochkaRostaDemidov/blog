@@ -8,6 +8,6 @@ paginate = 5
 	env = 'production'
 	[params.homeInfoParams]
 		Title = "Точка Роста"
-		Content = """График точки роста:
-		```ПН ВТ СР ЧТ ПТ СБ
+		Content = """График точки роста:\n
+		```ПН ВТ СР ЧТ ПТ СБ\n
 		++ ++ ++ -- -- --```"""
